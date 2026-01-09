@@ -10,7 +10,7 @@ const Teachers = () => {
     {
       name: 'Max老师',
       title: '金牌🏅顾问',
-      expertise: '美国芝加哥大学本科毕业',
+      expertise: '美国芝加哥大学本科在读',
       experience: '1年留学咨询经验',
       image: 'https://placehold.co/400',
       description: '，深谙美国顶尖院校录取标准，成功帮助300+学生进入藤校。',
@@ -19,7 +19,7 @@ const Teachers = () => {
     {
       name: 'Asa老师',
       title: '马然留学创始人',
-      expertise: 'Emory University本科毕业',
+      expertise: 'Emory University本科在读',
       experience: '1年指导经验',
       image: 'https://placehold.co/400',
       description: '',
