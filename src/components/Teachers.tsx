@@ -10,7 +10,7 @@ const Teachers = () => {
     {
       name: 'Max老师',
       title: '金牌🏅顾问',
-      expertise: '美国芝加哥大学本科在读',
+      expertise: '美国芝加哥大学本科录取',
       experience: '1年留学咨询经验',
       image: 'https://placehold.co/400',
       description: '，深谙美国顶尖院校录取标准，成功帮助300+学生进入藤校。',
@@ -19,8 +19,8 @@ const Teachers = () => {
     {
       name: 'Asa老师',
       title: '马然留学创始人',
-      expertise: 'Emory University本科在读',
-      experience: '1年指导经验',
+      expertise: 'Emory University本科录取',
+      experience: '0.1年指导经验',
       image: 'https://placehold.co/400',
       description: '',
       achievements: ['']
@@ -29,9 +29,18 @@ const Teachers = () => {
       name: 'Annie老师',
       title: '文书顾问',
       expertise: '人设打造专家',
-      experience: '1年留学咨询经验',
+      experience: '0.1年留学咨询经验',
       image: 'https://placehold.co/400',
       description: 'Annie在美国的艺术与教育行业工作了12年，她非常善于引导学生发掘自己的兴趣，并且帮助其最大化展现特质与个人风格，从而从众多申请者中脱引而出，与学生总是亦师亦友的关系，在本次申请季中主要帮助C同学完成难度极高的Wesleyan University文理学院的申请。',
+      achievements: ['']
+    },
+    {
+      name: 'Sabrina老师',
+      title: '战略发展顾问',
+      expertise: '长期发展设计',
+      experience: '0.1年留学咨询经验',
+      image: 'https://placehold.co/400',
+      description: '从整体与长期视角参与升学发展规划，关注教育理念、项目结构与学生发展路径的协调统一。通过研判国际教育环境与留学趋势，协助学生找寻个人兴趣，明确发展方向与阶段性重点。在以学生为中心的前提下，推动世界公民的全面发展。',
       achievements: ['']
     }
     
