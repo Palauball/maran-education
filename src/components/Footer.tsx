@@ -1,3 +1,4 @@
+import logo from '../assets/logo.svg';
 import './Footer.css';
 
 const Footer = () => {
@@ -5,7 +6,10 @@ const Footer = () => {
     <footer className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-section">
-          <h3 className="footer-logo">马然留学 <span className="logo-en">maran education</span></h3>
+          <h3 className="footer-logo">
+            <img src={logo} alt="马然留学 logo" className="footer-logo-img" />
+            马然留学 <span className="logo-en">maran education</span>
+          </h3>
           <p className="footer-description">
             专注于为中国学生提供专业的留学咨询服务，
             助力每一位学子实现海外求学梦想。

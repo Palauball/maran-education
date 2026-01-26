@@ -22,6 +22,15 @@
 .footer-logo {
   color: var(--primary-yellow);
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.footer-logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
 .footer-logo .logo-en {

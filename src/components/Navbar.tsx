@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../assets/logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -8,7 +9,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h2>马然留学 <span className="logo-en">maran education</span></h2>
+          <img src={logo} alt="马然留学 logo" className="navbar-logo-img" />
+          <h2>
+            马然留学 <span className="logo-en">maran education</span>
+          </h2>
         </div>
         
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>

@@ -14,6 +14,52 @@
   margin-bottom: 60px;
 }
 
+.cases-ticker {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.cases-ticker-row {
+  overflow: hidden;
+  padding: 0.5rem 0;
+}
+
+.cases-ticker-row + .cases-ticker-row {
+  margin-top: 0.35rem;
+}
+
+.cases-ticker-track {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  width: max-content;
+  animation: cases-ticker-scroll 22s linear infinite;
+}
+
+.cases-ticker-track.is-reverse {
+  animation-direction: reverse;
+}
+
+.cases-ticker-track.speed-fast {
+  animation-duration: 18s;
+}
+
+.cases-ticker-track.speed-medium {
+  animation-duration: 22s;
+}
+
+.cases-ticker-track.speed-slow {
+  animation-duration: 26s;
+}
+
+.cases-ticker-item {
+  white-space: nowrap;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #55afdf;
+  letter-spacing: 0.03em;
+}
+
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -208,6 +254,18 @@
     padding: 60px 0;
   }
 
+  .cases-ticker {
+    margin-bottom: 24px;
+  }
+
+  .cases-ticker-row {
+    padding: 0.4rem 0;
+  }
+
+  .cases-ticker-item {
+    font-size: 1.15rem;
+  }
+
   .section-title {
     font-size: 2rem;
   }
@@ -231,6 +289,15 @@
 
   .stat-number {
     font-size: 2.5rem;
+  }
+}
+
+@keyframes cases-ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 

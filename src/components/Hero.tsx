@@ -8,7 +8,7 @@ const Hero = () => {
     {
       title: '开启你的国际教育之旅',
       subtitle: '专业团队助你圆梦世界名校',
-      description: '10年留学咨询经验，98%成功录取率'
+      description: ''
     },
     {
       title: '量身定制留学方案',
@@ -18,7 +18,7 @@ const Hero = () => {
     {
       title: '汇聚顶尖名校资源',
       subtitle: '连接全球教育机会',
-      description: '合作院校超过500所，覆盖热门留学国家'
+      description: ''
     }
   ];
 
