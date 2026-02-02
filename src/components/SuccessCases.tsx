@@ -16,7 +16,7 @@ const SuccessCases = () => {
     },
     {
       name: 'M同学',
-      university: 'University of Michigan--Ann Arbor',
+      university: 'University of Michigan—Ann Arbor',
       major: 'College of Engineering',
       year: '2030',
       logo: 'https://1000logos.net/wp-content/uploads/2018/08/University-of-Michigan-Logo.png',
