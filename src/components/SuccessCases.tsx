@@ -31,8 +31,7 @@ const SuccessCases = () => {
       logo: 'https://foa-media.arch.hku.hk/media/upload/hku-logo-color1-1770x2000.png',
       quote: '马然留学是真的专业，不是套模板那种。选校和文书每一步都有理由，能感觉到老师很懂项目。',
       achievement: ''
-    }
-    ,
+    },
     {
       name: 'L同学',
       university: 'Ohio State University',
