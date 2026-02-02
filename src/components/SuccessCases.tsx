@@ -47,7 +47,7 @@ const SuccessCases = () => {
       major: 'Political Philosophy, Policy & Law',
       year: '2030',
       logo: 'https://1000logos.net/wp-content/uploads/2022/07/University-of-Virginia-Logo-1536x864.png',
-      quote: '感谢马然留学团队的专业指导，从文书撰写到面试准备，每一步都给予了我最大的帮助。',
+      quote: '马然留学在我整个升学过程中给予了极大的情绪价值，尤其是创始人马麒然对各个学校的情况都了如指掌，让我感到很踏实！',
       achievement: ''
     },
   ];
