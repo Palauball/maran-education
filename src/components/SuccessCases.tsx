@@ -45,7 +45,7 @@ const SuccessCases = () => {
     {
       name: 'S同学',
       university: 'University of Virginia',
-      major: 'Political Philosophy, Policy and Law',
+      major: 'Political Philosophy, Policy & Law',
       year: '2030',
       logo: 'https://www.freelogovectors.net/wp-content/uploads/2022/04/wesleyan_cardinals_logo_freelogovectors.net_.png',
       quote: '感谢马然留学团队的专业指导，从文书撰写到面试准备，每一步都给予了我最大的帮助。',
