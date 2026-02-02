@@ -51,12 +51,12 @@ const SuccessCases = () => {
       achievement: ''
     },
     {
-      name: 'C同学',
+      name: 'D同学',
       university: 'University of Illinois Urbana-Champaign',
       major: 'Grainger College of Engineering',
       year: '2030',
-      logo: 'https://1000logos.net/wp-content/uploads/2022/07/University-of-Virginia-Logo-1536x864.png',
-      quote: '马然留学在我整个升学过程中给予了极大的情绪价值，尤其是创始人马麒然对各个学校的情况都了如指掌，让我感到很踏实！',
+      logo: 'https://brand.illinois.edu/wp-content/uploads/2024/02/Block-I-orange-white-background.png',
+      quote: '感谢战略发展顾问Sabrina老师挖掘我的舞蹈天赋',
       achievement: ''
     },
   ];
